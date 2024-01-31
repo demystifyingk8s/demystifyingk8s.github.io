@@ -2,8 +2,48 @@ baseURL = 'https://demystifyingk8s.github.io/'
 languageCode = 'en-us'
 title = 'Demystifying Containers & Kubernetes'
 theme = "coder"
+defaultContentLanguage = "en"
+paginate = 20
+pygmentsStyle = "bw"
+pygmentsCodeFences = true
+pygmentsCodeFencesGuessSyntax = true
+enableEmoji = true
 
-[[menu.main]]
-    name = "About"
-    url = "/about/"
-    weight = 10
+[params]
+author = "Jose Angel Morena"
+license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
+description = "Demystifying Containers & Kubernetes"
+keywords = "blog,developer,sysadmin,kubernetes,devops,containers"
+info = ["Platform Engineer", "Kubernetes Enthusiast"]
+avatarURL = "images/avatar.jpg" # make the avatar bigger
+# Right To Left, shift content direction for languagues such as Arabic
+rtl = false
+# Specify light/dark colorscheme
+# Supported values:
+# "auto" (use preference set by browser)
+# "dark" (dark background, light foreground)
+# "light" (light background, dark foreground) (default)
+colorScheme = "dark"
+# Hide the toggle button, along with the associated vertical divider
+hideColorSchemeToggle = false
+# Series see also post count
+maxSeeAlsoItems = 5
+# Custom CSS
+customCSS = []
+# Custom SCSS, file path is relative to Hugo's asset folder (default: {your project root}/assets)
+#customSCSS = ["avatar.scss"]
+# Custom JS
+customJS = []
+
+[languages.en]
+languageName = ":uk:"
+
+[[languages.en.menu.main]]
+name = "About"
+weight = 1
+url = "about/"
+
+[[languages.en.menu.main]]
+name = "Blog"
+weight = 2
+url = "posts/"
