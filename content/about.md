@@ -15,4 +15,4 @@ Beyond the tech, I value community and open-source collaboration. I believe in s
 
 I'm always open to connecting with fellow tech enthusiasts and professionals. Whether you have questions, suggestions, or just want to chat about technology, feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/jose-angel-morena-simon/).
 
-Thank you for joining me on this journey.
+Thank you for joining me on this journey!
