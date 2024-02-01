@@ -41,12 +41,12 @@ languageName = ":uk:"
 [[languages.en.menu.main]]
 name = "Containers Blog"
 weight = 1
-url = "containers-posts/"
+url = "containers/"
 
 [[languages.en.menu.main]]
 name = "Kubernetes Blog"
 weight = 2
-url = "kubernetes-posts/"
+url = "kubernetes/"
 
 [[languages.en.menu.main]]
 name = "About"
