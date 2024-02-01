@@ -39,11 +39,16 @@ customJS = []
 languageName = ":uk:"
 
 [[languages.en.menu.main]]
-name = "About"
+name = "Containers Blog"
 weight = 1
-url = "about/"
+url = "containers-posts/"
 
 [[languages.en.menu.main]]
-name = "Blog"
+name = "Kubernetes Blog"
 weight = 2
-url = "posts/"
+url = "kubernetes-posts/"
+
+[[languages.en.menu.main]]
+name = "About"
+weight = 3
+url = "about/"
